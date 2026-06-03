@@ -1,0 +1,23 @@
+{
+  "title": "1000 Names of Macskusz - Denver",
+  "items": [
+    {
+      "title": "Auraria Mimikri",
+      "image": "assets/20260602_213646_p00_Auraria_Mimikri_Cut_out_shape__a_perfectly_bilateral_img00_base.png",
+      "video": ""
+    },
+    {
+      "title": "Pink Noita",
+      "image": "assets/20260602_215003_p00_Pink_Noita_Shape__A_perfectly_bilateral_Scherenschnitt_img00_base.png",
+      "video": ""
+    }
+  ],
+  "timing": {
+    "seconds_per_item": 18.0,
+    "image_seconds": 6.0,
+    "image_hold_ms": 6000,
+    "fade_ms": 1200,
+    "pause_after_video_ms": 1600,
+    "sound": true
+  }
+}
