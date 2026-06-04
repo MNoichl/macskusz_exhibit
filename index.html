@@ -127,7 +127,7 @@
       let last = null;
       setInterval(async () => {
         try {
-          const t = await (await fetch('manifest.json?_=' + Date.now(), {cache: 'no-store'})).text();
+          const t = await (await fetch('version.txt?_=' + Date.now(), {cache: 'no-store'})).text();
           if (last !== null && t !== last) location.reload();
           last = t;
         } catch (e) {
