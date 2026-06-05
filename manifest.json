@@ -18,9 +18,9 @@
     }
   ],
   "timing": {
-    "seconds_per_item": 18.0,
-    "image_seconds": 6.0,
-    "image_hold_ms": 6000,
+    "seconds_per_item": 50.0,
+    "image_seconds": 50.0,
+    "image_hold_ms": 50000,
     "fade_ms": 1200,
     "pause_after_video_ms": 1600,
     "sound": true,
