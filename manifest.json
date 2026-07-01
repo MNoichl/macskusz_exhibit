@@ -1,0 +1,26 @@
+{
+  "title": "1000 Names of Macskusz - Denver",
+  "items": [
+    {
+      "title": "Raktár Fossil",
+      "image": "assets/20260701_160717_p04_Raktar_Fossil_A_bilateral_Scherenschnitt_cabinet_creature__part_img00_base.png",
+      "video": "assets/20260701_160717_p04_Raktar_Fossil_A_bilateral_Scherenschnitt_cabinet_creature__part_img00_base_veo31.mp4"
+    }
+  ],
+  "timing": {
+    "seconds_per_item": 50.0,
+    "image_seconds": 50.0,
+    "image_hold_ms": 50000,
+    "fade_ms": 1200,
+    "pause_after_video_ms": 1600,
+    "sound": true,
+    "qr_enabled": true,
+    "qr_url": "https://mnoichl.github.io/1000_names_of_macskusz_AiArt26/",
+    "qr_label": "Learn more about the Macskusz!",
+    "qr_asset": "assets/macskusz_qr_7f61e7c4.png",
+    "qr_show_at_seconds": 35.0,
+    "qr_duration_seconds": 10.0,
+    "qr_show_at_ms": 35000,
+    "qr_duration_ms": 10000
+  }
+}

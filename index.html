@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1000 Names of Macskusz - Denver</title>
+  <style>
+    * { box-sizing: border-box; cursor: none !important; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #000; color: #f4f1e8; font-family: Helvetica, Arial, sans-serif; }
+    main { position: fixed; inset: 0; display: grid; place-items: center; background: #000; }
+    img, video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 1200ms ease; }
+    .visible { opacity: 1; }
+    .caption { position: fixed; left: clamp(14px, 2.4vw, 32px); bottom: clamp(12px, 2.2vw, 28px); z-index: 5; font-size: clamp(12px, 1.2vw, 16px); letter-spacing: 0; opacity: 0; mix-blend-mode: screen; transition: opacity 1200ms ease; }
+    .caption.visible { opacity: 0.72; }
+    .counter { position: fixed; right: clamp(14px, 2.4vw, 32px); bottom: clamp(12px, 2.2vw, 28px); z-index: 5; font-size: clamp(11px, 1vw, 14px); opacity: 0; font-variant-numeric: tabular-nums; transition: opacity 1200ms ease; }
+    .counter.visible { opacity: 0.42; }
+    .empty-state { position: fixed; inset: 0; z-index: 10; display: none; place-items: center; background: #000; color: #fff; font-size: clamp(24px, 4vw, 56px); font-weight: 400; letter-spacing: 0; text-align: center; }
+    .empty-state.visible { display: grid; }
+    .qr-card { position: fixed; right: clamp(14px, 2.2vw, 34px); bottom: clamp(14px, 2.2vw, 34px); z-index: 9; width: clamp(104px, 10vw, 158px); padding: clamp(7px, 0.8vw, 11px); border: 1px solid rgba(255, 255, 255, 0.76); border-radius: 4px; background: rgba(0, 0, 0, 0.9); color: #fff; opacity: 0; transform: translateY(calc(100% + 42px)); transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1), opacity 700ms ease; pointer-events: none; }
+    .qr-card.visible { opacity: 0.94; transform: translateY(0); }
+    .qr-label { margin: 0 0 clamp(5px, 0.6vw, 8px); font-size: clamp(9px, 0.78vw, 12px); line-height: 1.15; font-weight: 400; letter-spacing: 0; text-align: center; color: #fff; }
+    .qr-code { width: 100%; aspect-ratio: 1; background-image: url('assets/macskusz_qr_7f61e7c4.png'); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  </style>
+</head>
+<body>
+  <main aria-live="off">
+    <img id="still" alt="">
+    <video id="movie" playsinline preload="auto"></video>
+  </main>
+  <div id="emptyState" class="empty-state" role="status" aria-live="polite">waiting for art...</div>
+  <div id="qrCard" class="qr-card" aria-label="Learn more about the Macskusz!">
+    <div class="qr-label">Learn more about the Macskusz!</div>
+    <div class="qr-code" aria-label="QR code for https://mnoichl.github.io/1000_names_of_macskusz_AiArt26/"></div>
+  </div>
+  <div id="caption" class="caption"></div>
+  <div id="counter" class="counter"></div>
+  <script>
+    const items = [{"title": "Raktár Fossil", "image": "assets/20260701_160717_p04_Raktar_Fossil_A_bilateral_Scherenschnitt_cabinet_creature__part_img00_base.png", "video": "assets/20260701_160717_p04_Raktar_Fossil_A_bilateral_Scherenschnitt_cabinet_creature__part_img00_base_veo31.mp4"}];
+    const stillOnlyMs = 50000;
+    const imageHoldMs = 50000;
+    const fadeMs = 1200;
+    const pauseAfterVideoMs = 1600;
+    const soundEnabled = true;
+    const qrEnabled = true;
+    const qrShowAtMs = 35000;
+    const qrDurationMs = 10000;
+    let index = -1;
+    let timers = [];
+    let soundUnlocked = soundEnabled;
+    const still = document.getElementById('still');
+    const movie = document.getElementById('movie');
+    const caption = document.getElementById('caption');
+    const counter = document.getElementById('counter');
+    const emptyState = document.getElementById('emptyState');
+    const qrCard = document.getElementById('qrCard');
+
+    function schedule(fn, ms) {
+      const timer = window.setTimeout(fn, ms);
+      timers.push(timer);
+      return timer;
+    }
+
+    function clearTimers() {
+      timers.forEach((timer) => window.clearTimeout(timer));
+      timers = [];
+    }
+
+    function applySound() {
+      movie.muted = !soundUnlocked;
+      movie.volume = soundUnlocked ? 1 : 0;
+    }
+
+    function unlockSound() {
+      if (!soundEnabled) return;
+      soundUnlocked = true;
+      applySound();
+      if (movie.src) movie.play().catch(() => {});
+    }
+
+    function resetVideo() {
+      clearTimers();
+      hideQrCode();
+      movie.onended = null;
+      movie.pause();
+      movie.removeAttribute('src');
+      movie.load();
+      movie.classList.remove('visible');
+    }
+
+    function showQrCode() {
+      if (!qrEnabled || !qrCard) return;
+      qrCard.classList.add('visible');
+      schedule(hideQrCode, qrDurationMs);
+    }
+
+    function hideQrCode() {
+      if (!qrCard) return;
+      qrCard.classList.remove('visible');
+    }
+
+    function fadeOutThenNext() {
+      still.classList.remove('visible');
+      movie.classList.remove('visible');
+      caption.classList.remove('visible');
+      counter.classList.remove('visible');
+      hideQrCode();
+      schedule(showNext, pauseAfterVideoMs + fadeMs);
+    }
+
+    function playVideo(item) {
+      movie.src = item.video;
+      movie.currentTime = 0;
+      applySound();
+      movie.load();
+      movie.onended = fadeOutThenNext;
+      movie.classList.add('visible');
+      still.classList.remove('visible');
+      const attempt = movie.play();
+      if (attempt) {
+        attempt.catch(() => {
+          if (!soundEnabled) return;
+          soundUnlocked = false;
+          applySound();
+          movie.play().catch(() => fadeOutThenNext());
+        });
+      }
+    }
+
+    function showEmptyState() {
+      resetVideo();
+      still.removeAttribute('src');
+      still.classList.remove('visible');
+      caption.classList.remove('visible');
+      counter.classList.remove('visible');
+      hideQrCode();
+      emptyState.classList.add('visible');
+    }
+
+    function showNext() {
+      if (!items.length) {
+        showEmptyState();
+        return;
+      }
+      emptyState.classList.remove('visible');
+      resetVideo();
+      index = (index + 1) % items.length;
+      const item = items[index];
+      caption.textContent = item.title || '';
+      counter.textContent = String(index + 1) + ' / ' + String(items.length);
+      still.src = item.image;
+      still.classList.add('visible');
+      caption.classList.add('visible');
+      counter.classList.add('visible');
+      if (qrEnabled && qrShowAtMs >= 0) {
+        schedule(showQrCode, qrShowAtMs);
+      }
+
+      if (item.video) {
+        schedule(() => playVideo(item), imageHoldMs);
+      } else {
+        schedule(fadeOutThenNext, stillOnlyMs);
+      }
+    }
+
+    document.addEventListener('pointerdown', unlockSound);
+    document.addEventListener('keydown', (event) => {
+      unlockSound();
+      if (event.key === 'ArrowRight' || event.key === ' ') showNext();
+    });
+    showNext();
+  </script>
+  <script>
+    (() => {
+      let last = null;
+      setInterval(async () => {
+        try {
+          const t = await (await fetch('version.txt?_=' + Date.now(), {cache: 'no-store'})).text();
+          if (last !== null && t !== last) location.reload();
+          last = t;
+        } catch (e) {
+          /* offline: ignore, keep showing current */
+        }
+      }, 15000);
+    })();
+  </script>
+</body>
+</html>
