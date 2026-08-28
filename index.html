@@ -45,7 +45,9 @@
     const qrShowAtMs = 35000;
     const qrDurationMs = 10000;
     let index = -1;
+    let renderToken = 0;
     let timers = [];
+    const imagePreloads = new Map();
     let soundUnlocked = soundEnabled;
     const still = document.getElementById('still');
     const movie = document.getElementById('movie');
@@ -63,6 +65,29 @@
     function clearTimers() {
       timers.forEach((timer) => window.clearTimeout(timer));
       timers = [];
+    }
+
+    function preloadImage(src) {
+      if (!src) return Promise.resolve(null);
+      if (imagePreloads.has(src)) return imagePreloads.get(src);
+      const ready = new Promise((resolve) => {
+        const image = new Image();
+        image.onload = () => {
+          if (typeof image.decode !== 'function') {
+            resolve(image);
+            return;
+          }
+          try {
+            image.decode().catch(() => {}).then(() => resolve(image));
+          } catch (error) {
+            resolve(image);
+          }
+        };
+        image.onerror = () => resolve(null);
+        image.src = src;
+      });
+      imagePreloads.set(src, ready);
+      return ready;
     }
 
     function applySound() {
@@ -136,21 +161,29 @@
       emptyState.classList.add('visible');
     }
 
-    function showNext() {
+    async function showNext() {
+      const token = ++renderToken;
       if (!items.length) {
         showEmptyState();
         return;
       }
       emptyState.classList.remove('visible');
       resetVideo();
+      still.classList.remove('visible');
+      caption.classList.remove('visible');
+      counter.classList.remove('visible');
       index = (index + 1) % items.length;
       const item = items[index];
+      const decodedImage = await preloadImage(item.image);
+      if (token !== renderToken) return;
       caption.textContent = item.title || '';
       counter.textContent = String(index + 1) + ' / ' + String(items.length);
-      still.src = item.image;
+      still.src = decodedImage ? decodedImage.src : item.image;
       still.classList.add('visible');
       caption.classList.add('visible');
       counter.classList.add('visible');
+      const upcomingItem = items[(index + 1) % items.length];
+      if (upcomingItem) preloadImage(upcomingItem.image);
       if (qrEnabled && qrShowAtMs >= 0) {
         schedule(showQrCode, qrShowAtMs);
       }
