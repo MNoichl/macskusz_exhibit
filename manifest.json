@@ -3,16 +3,19 @@
   "items": [
     {
       "title": "Vitrine Räuber",
+      "date": "28.08.2026",
       "image": "assets/20260828_100606_p01_Vitrine_Rauber_A_museum_heist_Macskusz_shaped_like_img00_base.png",
       "video": "assets/20260828_100606_p01_Vitrine_Rauber_A_museum_heist_Macskusz_shaped_like_img00_base_veo31.mp4"
     },
     {
       "title": "Kirja Cabaret",
+      "date": "26.08.2026",
       "image": "assets/20260826_125120_p04_Kirja_Cabaret_A_nocturnal_nursery_cabaret_Macskusz_that_img00_base.png",
       "video": "assets/20260826_125120_p04_Kirja_Cabaret_A_nocturnal_nursery_cabaret_Macskusz_that_img00_base_veo31.mp4"
     },
     {
       "title": "Toe Champagne",
+      "date": "25.08.2026",
       "image": "assets/20260825_084713_p01_Toe_Champagne_A_record_toed_kitten__a_love_struck_img00_base.png",
       "video": "assets/20260825_084713_p01_Toe_Champagne_A_record_toed_kitten__a_love_struck_img00_base_veo31.mp4"
     }
