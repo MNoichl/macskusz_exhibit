@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Slop Menü",
+      "date": "August 31, 2026",
+      "image": "assets/20260831_130507_p00_Slop_Menu_A_symmetric_Macskusz_born_from_img00_base.png",
+      "video": "assets/20260831_130507_p00_Slop_Menu_A_symmetric_Macskusz_born_from_img00_base_veo31.mp4"
+    },
+    {
       "title": "Blister Coup",
       "date": "August 29, 2026",
       "image": "assets/20260829_073552_p04_Blister_Coup_A_pop_culture_vault_creature_made_img00_base.png",
@@ -18,12 +24,6 @@
       "date": "August 26, 2026",
       "image": "assets/20260826_125120_p04_Kirja_Cabaret_A_nocturnal_nursery_cabaret_Macskusz_that_img00_base.png",
       "video": "assets/20260826_125120_p04_Kirja_Cabaret_A_nocturnal_nursery_cabaret_Macskusz_that_img00_base_veo31.mp4"
-    },
-    {
-      "title": "Toe Champagne",
-      "date": "August 25, 2026",
-      "image": "assets/20260825_084713_p01_Toe_Champagne_A_record_toed_kitten__a_love_struck_img00_base.png",
-      "video": "assets/20260825_084713_p01_Toe_Champagne_A_record_toed_kitten__a_love_struck_img00_base_veo31.mp4"
     }
   ],
   "timing": {
