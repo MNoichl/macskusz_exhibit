@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Pastel Requiem",
+      "date": "September 9, 2026",
+      "image": "assets/20260909_160730_p02_Pastel_Requiem_A_candy_funeral_sea_pet_Macskusz_img00_base.png",
+      "video": ""
+    },
+    {
       "title": "Wahlplakat Macskusz",
       "date": "September 8, 2026",
       "image": "assets/20260908_092353_p02_Wahlplakat_Macskusz_A_political_billboard_Macskusz_stands_img00_base.png",
@@ -42,12 +48,6 @@
       "date": "August 31, 2026",
       "image": "assets/20260831_130507_p00_Slop_Menu_A_symmetric_Macskusz_born_from_img00_base.png",
       "video": "assets/20260831_130507_p00_Slop_Menu_A_symmetric_Macskusz_born_from_img00_base_veo31.mp4"
-    },
-    {
-      "title": "Blister Coup",
-      "date": "August 29, 2026",
-      "image": "assets/20260829_073552_p04_Blister_Coup_A_pop_culture_vault_creature_made_img00_base.png",
-      "video": "assets/20260829_073552_p04_Blister_Coup_A_pop_culture_vault_creature_made_img00_base_veo31.mp4"
     }
   ],
   "timing": {
