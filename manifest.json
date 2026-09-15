@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Hidas Mentowurm",
+      "date": "September 15, 2026",
+      "image": "assets/macskusz_2026-09-15_1_0ebac804d9fe.png",
+      "video": ""
+    },
+    {
       "title": "Archiv Tintenfisch",
       "date": "September 14, 2026",
       "image": "assets/macskusz_2026-09-14_2_b7c29e514d42.png",
@@ -42,12 +48,6 @@
       "date": "September 7, 2026",
       "image": "assets/20260907_124315_p04_Beluga_Strucc_A_captivity_and_appetite_monster_built_as_img00_base.png",
       "video": ""
-    },
-    {
-      "title": "Chonkerplakat",
-      "date": "September 6, 2026",
-      "image": "assets/20260906_130850_p01_Chonkerplakat_This_Macskusz_is_a_symmetric_img00_base.png",
-      "video": "assets/20260906_130850_p01_Chonkerplakat_This_Macskusz_is_a_symmetric_img00_base_veo31.mp4"
     }
   ],
   "timing": {
