@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Doppelhirte",
+      "date": "September 16, 2026",
+      "image": "assets/macskusz_2026-09-16_3_59ce2eb62161.png",
+      "video": ""
+    },
+    {
       "title": "Hidas Mentowurm",
       "date": "September 15, 2026",
       "image": "assets/macskusz_2026-09-15_1_0ebac804d9fe.png",
@@ -41,12 +47,6 @@
       "title": "Wahlplakat Macskusz",
       "date": "September 8, 2026",
       "image": "assets/20260908_092353_p02_Wahlplakat_Macskusz_A_political_billboard_Macskusz_stands_img00_base.png",
-      "video": ""
-    },
-    {
-      "title": "Beluga Strucc",
-      "date": "September 7, 2026",
-      "image": "assets/20260907_124315_p04_Beluga_Strucc_A_captivity_and_appetite_monster_built_as_img00_base.png",
       "video": ""
     }
   ],
