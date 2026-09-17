@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Freiheitsamphor",
+      "date": "September 17, 2026",
+      "image": "assets/macskusz_2026-09-17_3_f96d843b070c.png",
+      "video": ""
+    },
+    {
       "title": "Doppelhirte",
       "date": "September 16, 2026",
       "image": "assets/macskusz_2026-09-16_3_59ce2eb62161.png",
@@ -41,12 +47,6 @@
       "title": "Pastel Requiem",
       "date": "September 9, 2026",
       "image": "assets/20260909_160730_p02_Pastel_Requiem_A_candy_funeral_sea_pet_Macskusz_img00_base.png",
-      "video": ""
-    },
-    {
-      "title": "Wahlplakat Macskusz",
-      "date": "September 8, 2026",
-      "image": "assets/20260908_092353_p02_Wahlplakat_Macskusz_A_political_billboard_Macskusz_stands_img00_base.png",
       "video": ""
     }
   ],
