@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Tilcayo Node",
+      "date": "September 18, 2026",
+      "image": "assets/macskusz_2026-09-18_2_eb179abad803.png",
+      "video": ""
+    },
+    {
       "title": "Freiheitsamphor",
       "date": "September 17, 2026",
       "image": "assets/macskusz_2026-09-17_3_f96d843b070c.png",
@@ -42,12 +48,6 @@
       "date": "September 11, 2026",
       "image": "assets/20260911_125840_p00_Menukaarme_A_symmetrical_menu_serpent_Macskusz__half_img00_base.png",
       "video": "assets/20260911_125840_p00_Menukaarme_A_symmetrical_menu_serpent_Macskusz__half_img00_base_veo31.mp4"
-    },
-    {
-      "title": "Pastel Requiem",
-      "date": "September 9, 2026",
-      "image": "assets/20260909_160730_p02_Pastel_Requiem_A_candy_funeral_sea_pet_Macskusz_img00_base.png",
-      "video": ""
     }
   ],
   "timing": {
