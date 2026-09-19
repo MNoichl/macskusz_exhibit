@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Munkabogár",
+      "date": "September 19, 2026",
+      "image": "assets/macskusz_2026-09-19_3_7b42af3ef5a9.png",
+      "video": ""
+    },
+    {
       "title": "Tilcayo Node",
       "date": "September 18, 2026",
       "image": "assets/macskusz_2026-09-18_2_eb179abad803.png",
@@ -42,12 +48,6 @@
       "date": "September 12, 2026",
       "image": "assets/macskusz_2026-09-12-extra-restored-6081_2_a43ed1dd2ccb.png",
       "video": ""
-    },
-    {
-      "title": "Menukäärme",
-      "date": "September 11, 2026",
-      "image": "assets/20260911_125840_p00_Menukaarme_A_symmetrical_menu_serpent_Macskusz__half_img00_base.png",
-      "video": "assets/20260911_125840_p00_Menukaarme_A_symmetrical_menu_serpent_Macskusz__half_img00_base_veo31.mp4"
     }
   ],
   "timing": {
