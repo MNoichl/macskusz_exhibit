@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Blaupatkany",
+      "date": "September 21, 2026",
+      "image": "assets/macskusz_2026-09-21_2_03952753964e.png",
+      "video": ""
+    },
+    {
       "title": "Sichtmantel",
       "date": "September 20, 2026",
       "image": "assets/macskusz_2026-09-20_3_4357f81cdbeb.png",
@@ -41,12 +47,6 @@
       "title": "Archiv Tintenfisch",
       "date": "September 14, 2026",
       "image": "assets/macskusz_2026-09-14_2_b7c29e514d42.png",
-      "video": ""
-    },
-    {
-      "title": "Körperkalender",
-      "date": "September 13, 2026",
-      "image": "assets/macskusz_2026-09-13_2_526b78579ef1.png",
       "video": ""
     }
   ],
