@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Sichtmantel",
+      "date": "September 20, 2026",
+      "image": "assets/macskusz_2026-09-20_3_4357f81cdbeb.png",
+      "video": ""
+    },
+    {
       "title": "Munkabogár",
       "date": "September 19, 2026",
       "image": "assets/macskusz_2026-09-19_3_7b42af3ef5a9.png",
@@ -41,12 +47,6 @@
       "title": "Körperkalender",
       "date": "September 13, 2026",
       "image": "assets/macskusz_2026-09-13_2_526b78579ef1.png",
-      "video": ""
-    },
-    {
-      "title": "Schirmkragen Molch",
-      "date": "September 12, 2026",
-      "image": "assets/macskusz_2026-09-12-extra-restored-6081_2_a43ed1dd2ccb.png",
       "video": ""
     }
   ],
