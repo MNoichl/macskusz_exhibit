@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Barolo Rock",
+      "date": "September 22, 2026",
+      "image": "assets/macskusz_2026-09-22_2_f1de372262b5.png",
+      "video": ""
+    },
+    {
       "title": "Blaupatkany",
       "date": "September 21, 2026",
       "image": "assets/macskusz_2026-09-21_2_03952753964e.png",
@@ -41,12 +47,6 @@
       "title": "Hidas Mentowurm",
       "date": "September 15, 2026",
       "image": "assets/macskusz_2026-09-15_1_0ebac804d9fe.png",
-      "video": ""
-    },
-    {
-      "title": "Archiv Tintenfisch",
-      "date": "September 14, 2026",
-      "image": "assets/macskusz_2026-09-14_2_b7c29e514d42.png",
       "video": ""
     }
   ],
