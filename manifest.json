@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Auru Tigrino",
+      "date": "September 23, 2026",
+      "image": "assets/macskusz_2026-09-23-extra-6511_1_5be2b984c28e.png",
+      "video": "assets/macskusz_2026-09-23-extra-6511_1_5be2b984c28e.mp4"
+    },
+    {
       "title": "Barolo Rock",
       "date": "September 22, 2026",
       "image": "assets/macskusz_2026-09-22_2_f1de372262b5.png",
@@ -41,12 +47,6 @@
       "title": "Doppelhirte",
       "date": "September 16, 2026",
       "image": "assets/macskusz_2026-09-16_3_59ce2eb62161.png",
-      "video": ""
-    },
-    {
-      "title": "Hidas Mentowurm",
-      "date": "September 15, 2026",
-      "image": "assets/macskusz_2026-09-15_1_0ebac804d9fe.png",
       "video": ""
     }
   ],
