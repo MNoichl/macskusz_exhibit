@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Haz Plush",
+      "date": "September 24, 2026",
+      "image": "assets/macskusz_2026-09-24-extra-6623_3_5eb96a2b164d.png",
+      "video": ""
+    },
+    {
       "title": "Auru Tigrino",
       "date": "September 23, 2026",
       "image": "assets/macskusz_2026-09-23-extra-6511_1_5be2b984c28e.png",
@@ -41,12 +47,6 @@
       "title": "Freiheitsamphor",
       "date": "September 17, 2026",
       "image": "assets/macskusz_2026-09-17_3_f96d843b070c.png",
-      "video": ""
-    },
-    {
-      "title": "Doppelhirte",
-      "date": "September 16, 2026",
-      "image": "assets/macskusz_2026-09-16_3_59ce2eb62161.png",
       "video": ""
     }
   ],
