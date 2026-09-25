@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Plushstaat Panda",
+      "date": "September 25, 2026",
+      "image": "assets/macskusz_2026-09-25_3_d0413503ebbf.png",
+      "video": ""
+    },
+    {
       "title": "Haz Plush",
       "date": "September 24, 2026",
       "image": "assets/macskusz_2026-09-24-extra-6623_3_5eb96a2b164d.png",
@@ -41,12 +47,6 @@
       "title": "Tilcayo Node",
       "date": "September 18, 2026",
       "image": "assets/macskusz_2026-09-18_2_eb179abad803.png",
-      "video": ""
-    },
-    {
-      "title": "Freiheitsamphor",
-      "date": "September 17, 2026",
-      "image": "assets/macskusz_2026-09-17_3_f96d843b070c.png",
       "video": ""
     }
   ],
