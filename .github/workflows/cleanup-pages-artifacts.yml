@@ -2,7 +2,7 @@ name: Clean deployed Pages artifacts
 
 on:
   workflow_run:
-    workflows: ["Deploy GitHub Pages", "pages build and deployment"]
+    workflows: ["Deploy GitHub Pages", "pages-build-deployment", "pages build and deployment"]
     types: [completed]
 
 permissions:
