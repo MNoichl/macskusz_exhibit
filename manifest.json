@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Tokhal Ecce",
+      "date": "September 26, 2026",
+      "image": "assets/macskusz_2026-09-26_2_88813f7c3e3c.png",
+      "video": ""
+    },
+    {
       "title": "Plushstaat Panda",
       "date": "September 25, 2026",
       "image": "assets/macskusz_2026-09-25_3_d0413503ebbf.png",
@@ -41,12 +47,6 @@
       "title": "Munkabogár",
       "date": "September 19, 2026",
       "image": "assets/macskusz_2026-09-19_3_7b42af3ef5a9.png",
-      "video": ""
-    },
-    {
-      "title": "Tilcayo Node",
-      "date": "September 18, 2026",
-      "image": "assets/macskusz_2026-09-18_2_eb179abad803.png",
       "video": ""
     }
   ],
