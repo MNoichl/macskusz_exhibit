@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Marmot Console",
+      "date": "September 28, 2026",
+      "image": "assets/macskusz_2026-09-28_1_0de0279d64fb.png",
+      "video": ""
+    },
+    {
       "title": "Aktenblick Kaiju",
       "date": "September 27, 2026",
       "image": "assets/macskusz_2026-09-27_1_cde0d266ba3b.png",
@@ -41,12 +47,6 @@
       "title": "Blaupatkany",
       "date": "September 21, 2026",
       "image": "assets/macskusz_2026-09-21_2_03952753964e.png",
-      "video": ""
-    },
-    {
-      "title": "Sichtmantel",
-      "date": "September 20, 2026",
-      "image": "assets/macskusz_2026-09-20_3_4357f81cdbeb.png",
       "video": ""
     }
   ],
