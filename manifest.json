@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Szoba Cabaret",
+      "date": "October 2, 2026",
+      "image": "assets/macskusz_2026-10-02_2_8258d7a613af.png",
+      "video": ""
+    },
+    {
       "title": "Autowar Ratte",
       "date": "October 1, 2026",
       "image": "assets/macskusz_2026-10-01_1_a8c2c09117cb.png",
@@ -41,12 +47,6 @@
       "title": "Plushstaat Panda",
       "date": "September 25, 2026",
       "image": "assets/macskusz_2026-09-25_3_d0413503ebbf.png",
-      "video": ""
-    },
-    {
-      "title": "Haz Plush",
-      "date": "September 24, 2026",
-      "image": "assets/macskusz_2026-09-24-extra-6623_3_5eb96a2b164d.png",
       "video": ""
     }
   ],
