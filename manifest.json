@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Kuhl Antenna",
+      "date": "October 3, 2026",
+      "image": "assets/macskusz_2026-10-03_1_8f1319d1f770.png",
+      "video": ""
+    },
+    {
       "title": "Szoba Cabaret",
       "date": "October 2, 2026",
       "image": "assets/macskusz_2026-10-02_2_8258d7a613af.png",
@@ -41,12 +47,6 @@
       "title": "Tokhal Ecce",
       "date": "September 26, 2026",
       "image": "assets/macskusz_2026-09-26_2_88813f7c3e3c.png",
-      "video": ""
-    },
-    {
-      "title": "Plushstaat Panda",
-      "date": "September 25, 2026",
-      "image": "assets/macskusz_2026-09-25_3_d0413503ebbf.png",
       "video": ""
     }
   ],
