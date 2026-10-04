@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Lagoon Witness",
+      "date": "October 4, 2026",
+      "image": "assets/macskusz_2026-10-04_2_93083f336021.png",
+      "video": ""
+    },
+    {
       "title": "Kuhl Antenna",
       "date": "October 3, 2026",
       "image": "assets/macskusz_2026-10-03_1_8f1319d1f770.png",
@@ -41,12 +47,6 @@
       "title": "Aktenblick Kaiju",
       "date": "September 27, 2026",
       "image": "assets/macskusz_2026-09-27_1_cde0d266ba3b.png",
-      "video": ""
-    },
-    {
-      "title": "Tokhal Ecce",
-      "date": "September 26, 2026",
-      "image": "assets/macskusz_2026-09-26_2_88813f7c3e3c.png",
       "video": ""
     }
   ],
