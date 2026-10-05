@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Lumenhirschkarp",
+      "date": "October 5, 2026",
+      "image": "assets/macskusz_2026-10-05-extra-7007_3_e4dca033b785.png",
+      "video": ""
+    },
+    {
       "title": "Lagoon Witness",
       "date": "October 4, 2026",
       "image": "assets/macskusz_2026-10-04_2_93083f336021.png",
@@ -42,12 +48,6 @@
       "date": "September 28, 2026",
       "image": "assets/macskusz_2026-09-28_1_0de0279d64fb.png",
       "video": "assets/macskusz_2026-09-28_1_0de0279d64fb_video-v2_d507afca1cda.mp4"
-    },
-    {
-      "title": "Aktenblick Kaiju",
-      "date": "September 27, 2026",
-      "image": "assets/macskusz_2026-09-27_1_cde0d266ba3b.png",
-      "video": ""
     }
   ],
   "timing": {
