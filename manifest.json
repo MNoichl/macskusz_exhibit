@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Metsätab Geist",
+      "date": "October 6, 2026",
+      "image": "assets/macskusz_2026-10-06_2_e5cd3e978e80.png",
+      "video": ""
+    },
+    {
       "title": "Lumenhirschkarp",
       "date": "October 5, 2026",
       "image": "assets/macskusz_2026-10-05-extra-7007_3_e4dca033b785.png",
@@ -42,12 +48,6 @@
       "date": "September 29, 2026",
       "image": "assets/macskusz_2026-09-29-extra-6803_3_1210dc3d84e7.png",
       "video": ""
-    },
-    {
-      "title": "Marmot Console",
-      "date": "September 28, 2026",
-      "image": "assets/macskusz_2026-09-28_1_0de0279d64fb.png",
-      "video": "assets/macskusz_2026-09-28_1_0de0279d64fb_video-v2_d507afca1cda.mp4"
     }
   ],
   "timing": {
