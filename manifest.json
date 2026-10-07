@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Tükörmolch Amt",
+      "date": "October 7, 2026",
+      "image": "assets/macskusz_2026-10-07-extra-curated-7096_1_4b59517ee812.png",
+      "video": ""
+    },
+    {
       "title": "Metsätab Geist",
       "date": "October 6, 2026",
       "image": "assets/macskusz_2026-10-06_2_e5cd3e978e80.png",
@@ -41,12 +47,6 @@
       "title": "Sentrykamm",
       "date": "September 30, 2026",
       "image": "assets/macskusz_2026-09-30_1_e8b68e9cde1a.png",
-      "video": ""
-    },
-    {
-      "title": "Robotmocsar",
-      "date": "September 29, 2026",
-      "image": "assets/macskusz_2026-09-29-extra-6803_3_1210dc3d84e7.png",
       "video": ""
     }
   ],
