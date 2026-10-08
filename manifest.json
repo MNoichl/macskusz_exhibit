@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Begutachtungsmantis",
+      "date": "October 8, 2026",
+      "image": "assets/macskusz_2026-10-08_3_651fd3c51e48.png",
+      "video": ""
+    },
+    {
       "title": "Tükörmolch Amt",
       "date": "October 7, 2026",
       "image": "assets/macskusz_2026-10-07-extra-curated-7096_1_4b59517ee812.png",
@@ -41,12 +47,6 @@
       "title": "Autowar Ratte",
       "date": "October 1, 2026",
       "image": "assets/macskusz_2026-10-01_1_a8c2c09117cb.png",
-      "video": ""
-    },
-    {
-      "title": "Sentrykamm",
-      "date": "September 30, 2026",
-      "image": "assets/macskusz_2026-09-30_1_e8b68e9cde1a.png",
       "video": ""
     }
   ],
