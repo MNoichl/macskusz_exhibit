@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Bezzy Lantern",
+      "date": "October 9, 2026",
+      "image": "assets/macskusz_2026-10-09_1_155b9f591c18.png",
+      "video": ""
+    },
+    {
       "title": "Begutachtungsmantis",
       "date": "October 8, 2026",
       "image": "assets/macskusz_2026-10-08_3_651fd3c51e48.png",
@@ -41,12 +47,6 @@
       "title": "Szoba Cabaret",
       "date": "October 2, 2026",
       "image": "assets/macskusz_2026-10-02_2_8258d7a613af.png",
-      "video": ""
-    },
-    {
-      "title": "Autowar Ratte",
-      "date": "October 1, 2026",
-      "image": "assets/macskusz_2026-10-01_1_a8c2c09117cb.png",
       "video": ""
     }
   ],
