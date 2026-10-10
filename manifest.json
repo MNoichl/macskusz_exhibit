@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Wailmandel",
+      "date": "October 10, 2026",
+      "image": "assets/macskusz_2026-10-10_1_80333eb5bc04.png",
+      "video": ""
+    },
+    {
       "title": "Bezzy Lantern",
       "date": "October 9, 2026",
       "image": "assets/macskusz_2026-10-09_1_155b9f591c18.png",
@@ -41,12 +47,6 @@
       "title": "Kuhl Antenna",
       "date": "October 3, 2026",
       "image": "assets/macskusz_2026-10-03_1_8f1319d1f770.png",
-      "video": ""
-    },
-    {
-      "title": "Szoba Cabaret",
-      "date": "October 2, 2026",
-      "image": "assets/macskusz_2026-10-02_2_8258d7a613af.png",
       "video": ""
     }
   ],
