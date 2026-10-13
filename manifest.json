@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Signaturfrost Molch",
+      "date": "October 13, 2026",
+      "image": "assets/macskusz_2026-10-13_1_e27ba18865fb.png",
+      "video": ""
+    },
+    {
       "title": "Puma Uhrwerk",
       "date": "October 12, 2026",
       "image": "assets/macskusz_2026-10-12_2_ceed17108c65.png",
@@ -41,12 +47,6 @@
       "title": "Metsätab Geist",
       "date": "October 6, 2026",
       "image": "assets/macskusz_2026-10-06_2_e5cd3e978e80.png",
-      "video": ""
-    },
-    {
-      "title": "Lumenhirschkarp",
-      "date": "October 5, 2026",
-      "image": "assets/macskusz_2026-10-05-extra-7007_3_e4dca033b785.png",
       "video": ""
     }
   ],
