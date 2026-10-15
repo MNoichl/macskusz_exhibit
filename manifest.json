@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Pendelwidder",
+      "date": "October 15, 2026",
+      "image": "assets/macskusz_2026-10-15-extra-curated-pendelwidder-b-7576_3_f28d82e08a4c.png",
+      "video": ""
+    },
+    {
       "title": "Amber Hairsign",
       "date": "October 14, 2026",
       "image": "assets/macskusz_2026-10-14_1_e4dfb6a89e6a.png",
@@ -41,12 +47,6 @@
       "title": "Begutachtungsmantis",
       "date": "October 8, 2026",
       "image": "assets/macskusz_2026-10-08_3_651fd3c51e48.png",
-      "video": ""
-    },
-    {
-      "title": "Tükörmolch Amt",
-      "date": "October 7, 2026",
-      "image": "assets/macskusz_2026-10-07-extra-curated-7096_1_4b59517ee812.png",
       "video": ""
     }
   ],
