@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Flüsterkrebs",
+      "date": "October 19, 2026",
+      "image": "assets/macskusz_2026-10-19_1_1184af3c15f3.png",
+      "video": ""
+    },
+    {
       "title": "Otthon Kot",
       "date": "October 18, 2026",
       "image": "assets/macskusz_2026-10-18-extra-curated-otthon-kot-7675_3_6c2a463b50f3.png",
@@ -42,12 +48,6 @@
       "date": "October 10, 2026",
       "image": "assets/macskusz_2026-10-10_1_80333eb5bc04.png",
       "video": "assets/macskusz_2026-10-10_1_80333eb5bc04.mp4"
-    },
-    {
-      "title": "Bezzy Lantern",
-      "date": "October 9, 2026",
-      "image": "assets/macskusz_2026-10-09_1_155b9f591c18.png",
-      "video": ""
     }
   ],
   "timing": {
