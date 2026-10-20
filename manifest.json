@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Quellkarussell",
+      "date": "October 20, 2026",
+      "image": "assets/macskusz_2026-10-20_2_d7a59e4853f6.png",
+      "video": ""
+    },
+    {
       "title": "Flüsterkrebs",
       "date": "October 19, 2026",
       "image": "assets/macskusz_2026-10-19_1_1184af3c15f3.png",
@@ -42,12 +48,6 @@
       "date": "October 11, 2026",
       "image": "assets/macskusz_2026-10-11_2_cfff94521441.png",
       "video": ""
-    },
-    {
-      "title": "Wailmandel",
-      "date": "October 10, 2026",
-      "image": "assets/macskusz_2026-10-10_1_80333eb5bc04.png",
-      "video": "assets/macskusz_2026-10-10_1_80333eb5bc04.mp4"
     }
   ],
   "timing": {
