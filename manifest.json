@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Beweisfresser",
+      "date": "October 21, 2026",
+      "image": "assets/macskusz_2026-10-21-extra-curated-beweisfresser-7874_3_808f23194a2a.png",
+      "video": ""
+    },
+    {
       "title": "Quellkarussell",
       "date": "October 20, 2026",
       "image": "assets/macskusz_2026-10-20_2_d7a59e4853f6.png",
@@ -41,12 +47,6 @@
       "title": "Puma Uhrwerk",
       "date": "October 12, 2026",
       "image": "assets/macskusz_2026-10-12_2_ceed17108c65.png",
-      "video": ""
-    },
-    {
-      "title": "Sphinxmaschine",
-      "date": "October 11, 2026",
-      "image": "assets/macskusz_2026-10-11_2_cfff94521441.png",
       "video": ""
     }
   ],
