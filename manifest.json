@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Registerassel",
+      "date": "October 22, 2026",
+      "image": "assets/macskusz_2026-10-22_1_cd1e1ce3ad2c.png",
+      "video": ""
+    },
+    {
       "title": "Beweisfresser",
       "date": "October 21, 2026",
       "image": "assets/macskusz_2026-10-21-extra-curated-beweisfresser-7874_3_808f23194a2a.png",
@@ -41,12 +47,6 @@
       "title": "Signaturfrost Molch",
       "date": "October 13, 2026",
       "image": "assets/macskusz_2026-10-13_1_e27ba18865fb.png",
-      "video": ""
-    },
-    {
-      "title": "Puma Uhrwerk",
-      "date": "October 12, 2026",
-      "image": "assets/macskusz_2026-10-12_2_ceed17108c65.png",
       "video": ""
     }
   ],
