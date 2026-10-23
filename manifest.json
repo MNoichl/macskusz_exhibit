@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Zählkauz",
+      "date": "October 23, 2026",
+      "image": "assets/macskusz_2026-10-23_3_2883844960a3.png",
+      "video": ""
+    },
+    {
       "title": "Registerassel",
       "date": "October 22, 2026",
       "image": "assets/macskusz_2026-10-22_1_cd1e1ce3ad2c.png",
@@ -41,12 +47,6 @@
       "title": "Amber Hairsign",
       "date": "October 14, 2026",
       "image": "assets/macskusz_2026-10-14_1_e4dfb6a89e6a.png",
-      "video": ""
-    },
-    {
-      "title": "Signaturfrost Molch",
-      "date": "October 13, 2026",
-      "image": "assets/macskusz_2026-10-13_1_e27ba18865fb.png",
       "video": ""
     }
   ],
