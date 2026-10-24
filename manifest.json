@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Lichtschnecke",
+      "date": "October 24, 2026",
+      "image": "assets/macskusz_2026-10-24_1_d98b0d44adc0.png",
+      "video": ""
+    },
+    {
       "title": "Zählkauz",
       "date": "October 23, 2026",
       "image": "assets/macskusz_2026-10-23_3_2883844960a3.png",
@@ -41,12 +47,6 @@
       "title": "Pendelwidder",
       "date": "October 15, 2026",
       "image": "assets/macskusz_2026-10-15-extra-curated-pendelwidder-b-7576_3_f28d82e08a4c.png",
-      "video": ""
-    },
-    {
-      "title": "Amber Hairsign",
-      "date": "October 14, 2026",
-      "image": "assets/macskusz_2026-10-14_1_e4dfb6a89e6a.png",
       "video": ""
     }
   ],
