@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Lohnrachen",
+      "date": "October 25, 2026",
+      "image": "assets/macskusz_2026-10-25_2_c791255f45aa.png",
+      "video": ""
+    },
+    {
       "title": "Lichtschnecke",
       "date": "October 24, 2026",
       "image": "assets/macskusz_2026-10-24_1_d98b0d44adc0.png",
@@ -41,12 +47,6 @@
       "title": "Otthon Kot",
       "date": "October 18, 2026",
       "image": "assets/macskusz_2026-10-18-extra-curated-otthon-kot-7675_3_6c2a463b50f3.png",
-      "video": ""
-    },
-    {
-      "title": "Pendelwidder",
-      "date": "October 15, 2026",
-      "image": "assets/macskusz_2026-10-15-extra-curated-pendelwidder-b-7576_3_f28d82e08a4c.png",
       "video": ""
     }
   ],
