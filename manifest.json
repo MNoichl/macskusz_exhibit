@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Kurvenläufer",
+      "date": "October 27, 2026",
+      "image": "assets/macskusz_2026-10-27_3_c33bd469c7f8.png",
+      "video": ""
+    },
+    {
       "title": "Schluckspiegel",
       "date": "October 26, 2026",
       "image": "assets/macskusz_2026-10-26_3_f6bd587aa1b6.png",
@@ -41,12 +47,6 @@
       "title": "Quellkarussell",
       "date": "October 20, 2026",
       "image": "assets/macskusz_2026-10-20_2_d7a59e4853f6.png",
-      "video": ""
-    },
-    {
-      "title": "Flüsterkrebs",
-      "date": "October 19, 2026",
-      "image": "assets/macskusz_2026-10-19_1_1184af3c15f3.png",
       "video": ""
     }
   ],
