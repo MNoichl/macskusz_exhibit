@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Heimwehschnecke",
+      "date": "October 29, 2026",
+      "image": "assets/macskusz_2026-10-29_2_9daaada16704.png",
+      "video": ""
+    },
+    {
       "title": "Kernmahler",
       "date": "October 28, 2026",
       "image": "assets/macskusz_2026-10-28_1_2ccaa0894f26.png",
@@ -42,12 +48,6 @@
       "date": "October 22, 2026",
       "image": "assets/macskusz_2026-10-22_1_cd1e1ce3ad2c.png",
       "video": ""
-    },
-    {
-      "title": "Beweisfresser",
-      "date": "October 21, 2026",
-      "image": "assets/macskusz_2026-10-21-extra-curated-beweisfresser-7874_3_808f23194a2a.png",
-      "video": "assets/macskusz_2026-10-21-extra-curated-beweisfresser-7874_3_808f23194a2a.mp4"
     }
   ],
   "timing": {
