@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Seidenschlund",
+      "date": "October 30, 2026",
+      "image": "assets/macskusz_2026-10-30_3_0a6637f48dbb.png",
+      "video": ""
+    },
+    {
       "title": "Heimwehschnecke",
       "date": "October 29, 2026",
       "image": "assets/macskusz_2026-10-29_2_9daaada16704.png",
@@ -41,12 +47,6 @@
       "title": "Zählkauz",
       "date": "October 23, 2026",
       "image": "assets/macskusz_2026-10-23_3_2883844960a3.png",
-      "video": ""
-    },
-    {
-      "title": "Registerassel",
-      "date": "October 22, 2026",
-      "image": "assets/macskusz_2026-10-22_1_cd1e1ce3ad2c.png",
       "video": ""
     }
   ],
