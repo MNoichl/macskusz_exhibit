@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Blaseniltis",
+      "date": "November 2, 2026",
+      "image": "assets/macskusz_2026-11-02_1_92a65d17634a.png",
+      "video": ""
+    },
+    {
       "title": "Samtzeuge",
       "date": "November 1, 2026",
       "image": "assets/macskusz_2026-11-01_2_9d3ef0398d02.png",
@@ -41,12 +47,6 @@
       "title": "Schluckspiegel",
       "date": "October 26, 2026",
       "image": "assets/macskusz_2026-10-26_3_f6bd587aa1b6.png",
-      "video": ""
-    },
-    {
-      "title": "Lohnrachen",
-      "date": "October 25, 2026",
-      "image": "assets/macskusz_2026-10-25_2_c791255f45aa.png",
       "video": ""
     }
   ],
