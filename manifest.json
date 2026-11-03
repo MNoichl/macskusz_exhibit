@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Wendeschlund",
+      "date": "November 3, 2026",
+      "image": "assets/macskusz_2026-11-03_3_0f14f3f21e06.png",
+      "video": ""
+    },
+    {
       "title": "Blaseniltis",
       "date": "November 2, 2026",
       "image": "assets/macskusz_2026-11-02_1_92a65d17634a.png",
@@ -41,12 +47,6 @@
       "title": "Kurvenläufer",
       "date": "October 27, 2026",
       "image": "assets/macskusz_2026-10-27_3_c33bd469c7f8.png",
-      "video": ""
-    },
-    {
-      "title": "Schluckspiegel",
-      "date": "October 26, 2026",
-      "image": "assets/macskusz_2026-10-26_3_f6bd587aa1b6.png",
       "video": ""
     }
   ],
