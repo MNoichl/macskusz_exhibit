@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Hörverbund",
+      "date": "November 4, 2026",
+      "image": "assets/macskusz_2026-11-04_1_5b38e5560e58.png",
+      "video": ""
+    },
+    {
       "title": "Wendeschlund",
       "date": "November 3, 2026",
       "image": "assets/macskusz_2026-11-03_3_0f14f3f21e06.png",
@@ -41,12 +47,6 @@
       "title": "Kernmahler",
       "date": "October 28, 2026",
       "image": "assets/macskusz_2026-10-28_1_2ccaa0894f26.png",
-      "video": ""
-    },
-    {
-      "title": "Kurvenläufer",
-      "date": "October 27, 2026",
-      "image": "assets/macskusz_2026-10-27_3_c33bd469c7f8.png",
       "video": ""
     }
   ],
