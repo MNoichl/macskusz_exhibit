@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Sporenhorcher",
+      "date": "November 5, 2026",
+      "image": "assets/macskusz_2026-11-05_3_f45ea6644b33.png",
+      "video": ""
+    },
+    {
       "title": "Hörverbund",
       "date": "November 4, 2026",
       "image": "assets/macskusz_2026-11-04_1_5b38e5560e58.png",
@@ -41,12 +47,6 @@
       "title": "Heimwehschnecke",
       "date": "October 29, 2026",
       "image": "assets/macskusz_2026-10-29_2_9daaada16704.png",
-      "video": ""
-    },
-    {
-      "title": "Kernmahler",
-      "date": "October 28, 2026",
-      "image": "assets/macskusz_2026-10-28_1_2ccaa0894f26.png",
       "video": ""
     }
   ],
