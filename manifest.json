@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Denkmalgleiter",
+      "date": "November 7, 2026",
+      "image": "assets/macskusz_2026-11-07_2_6c08ca331540.png",
+      "video": ""
+    },
+    {
       "title": "Grußbeutler",
       "date": "November 6, 2026",
       "image": "assets/macskusz_2026-11-06_1_39ad7304e9c6.png",
@@ -41,12 +47,6 @@
       "title": "Rücksprung Grison",
       "date": "October 31, 2026",
       "image": "assets/macskusz_2026-10-31_1_a9cd3556686d.png",
-      "video": ""
-    },
-    {
-      "title": "Seidenschlund",
-      "date": "October 30, 2026",
-      "image": "assets/macskusz_2026-10-30_3_0a6637f48dbb.png",
       "video": ""
     }
   ],
