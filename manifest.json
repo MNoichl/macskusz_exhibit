@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Zeitetagenkrebs",
+      "date": "November 8, 2026",
+      "image": "assets/macskusz_2026-11-08_2_bee0d06aecff.png",
+      "video": ""
+    },
+    {
       "title": "Denkmalgleiter",
       "date": "November 7, 2026",
       "image": "assets/macskusz_2026-11-07_2_6c08ca331540.png",
@@ -41,12 +47,6 @@
       "title": "Samtzeuge",
       "date": "November 1, 2026",
       "image": "assets/macskusz_2026-11-01_2_9d3ef0398d02.png",
-      "video": ""
-    },
-    {
-      "title": "Rücksprung Grison",
-      "date": "October 31, 2026",
-      "image": "assets/macskusz_2026-10-31_1_a9cd3556686d.png",
       "video": ""
     }
   ],
