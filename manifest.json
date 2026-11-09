@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Spiegeltrampel",
+      "date": "November 9, 2026",
+      "image": "assets/macskusz_2026-11-09_2_64a07ce6b2f9.png",
+      "video": ""
+    },
+    {
       "title": "Zeitetagenkrebs",
       "date": "November 8, 2026",
       "image": "assets/macskusz_2026-11-08_2_bee0d06aecff.png",
@@ -41,12 +47,6 @@
       "title": "Blaseniltis",
       "date": "November 2, 2026",
       "image": "assets/macskusz_2026-11-02_1_92a65d17634a.png",
-      "video": ""
-    },
-    {
-      "title": "Samtzeuge",
-      "date": "November 1, 2026",
-      "image": "assets/macskusz_2026-11-01_2_9d3ef0398d02.png",
       "video": ""
     }
   ],
