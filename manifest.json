@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Schwellenzirpe",
+      "date": "November 10, 2026",
+      "image": "assets/macskusz_2026-11-10_3_c2662046d8f9.png",
+      "video": ""
+    },
+    {
       "title": "Spiegeltrampel",
       "date": "November 9, 2026",
       "image": "assets/macskusz_2026-11-09_2_64a07ce6b2f9.png",
@@ -41,12 +47,6 @@
       "title": "Wendeschlund",
       "date": "November 3, 2026",
       "image": "assets/macskusz_2026-11-03_3_0f14f3f21e06.png",
-      "video": ""
-    },
-    {
-      "title": "Blaseniltis",
-      "date": "November 2, 2026",
-      "image": "assets/macskusz_2026-11-02_1_92a65d17634a.png",
       "video": ""
     }
   ],
