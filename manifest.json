@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Stillwasser Hüter",
+      "date": "November 11, 2026",
+      "image": "assets/macskusz_2026-11-11_3_fbe5564aefb3.png",
+      "video": ""
+    },
+    {
       "title": "Schwellenzirpe",
       "date": "November 10, 2026",
       "image": "assets/macskusz_2026-11-10_3_c2662046d8f9.png",
@@ -41,12 +47,6 @@
       "title": "Hörverbund",
       "date": "November 4, 2026",
       "image": "assets/macskusz_2026-11-04_1_5b38e5560e58.png",
-      "video": ""
-    },
-    {
-      "title": "Wendeschlund",
-      "date": "November 3, 2026",
-      "image": "assets/macskusz_2026-11-03_3_0f14f3f21e06.png",
       "video": ""
     }
   ],
