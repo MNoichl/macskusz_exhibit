@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Rifflauscher",
+      "date": "November 16, 2026",
+      "image": "assets/macskusz_2026-11-16_1_0a21ade2ff82.png",
+      "video": ""
+    },
+    {
       "title": "Staukehl Krabbler",
       "date": "November 15, 2026",
       "image": "assets/macskusz_2026-11-15_2_65ef8453a612.png",
@@ -41,12 +47,6 @@
       "title": "Spiegeltrampel",
       "date": "November 9, 2026",
       "image": "assets/macskusz_2026-11-09_2_64a07ce6b2f9.png",
-      "video": ""
-    },
-    {
-      "title": "Zeitetagenkrebs",
-      "date": "November 8, 2026",
-      "image": "assets/macskusz_2026-11-08_2_bee0d06aecff.png",
       "video": ""
     }
   ],
