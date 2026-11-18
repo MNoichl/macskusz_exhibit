@@ -44,10 +44,9 @@
       "video": ""
     },
     {
-      "title": "Stillwasser Hüter",
-      "date": "November 11, 2026",
-      "image": "assets/macskusz_2026-11-11_3_fbe5564aefb3.png",
-      "video": ""
+      "type": "info",
+      "title": "Learn more about the Macskusz",
+      "url": "https://mnoichl.github.io/1000_names_of_macskusz_Aberrant_Creativity26/"
     }
   ],
   "timing": {
@@ -57,13 +56,6 @@
     "fade_ms": 1200,
     "pause_after_video_ms": 1600,
     "sound": true,
-    "qr_enabled": true,
-    "qr_url": "https://mnoichl.github.io/macskusz_exhibit/",
-    "qr_label": "Learn more about the Macskusz!",
-    "qr_asset": "assets/macskusz_qr_7c9eec54.png",
-    "qr_show_at_seconds": 35.0,
-    "qr_duration_seconds": 10.0,
-    "qr_show_at_ms": 35000,
-    "qr_duration_ms": 10000
+    "qr_enabled": false
   }
 }
