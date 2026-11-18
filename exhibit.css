@@ -21,6 +21,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid #f4f1e8; outline-offs
 
 .play-animation { position: absolute; z-index: 4; width: auto; padding: 0 20px; height: 48px; bottom: calc(120px + env(safe-area-inset-bottom)); font-size: 17px; border: 1px solid #f4f1e8; border-radius: 24px; background: rgba(0, 0, 0, .85); }
 
-/* Rifflauscher: fit the central 860px action area, not the 1280px black canvas.
-   The full 8-second movement stays inside that area; do not crop to 720px. */
-#movie.padded-landscape { inset: auto; left: 50%; top: 50%; width: min(177.7778vh, 148.8372vw); height: min(100vh, 83.7209vw); transform: translate(-50%, -50%); }
+/* Rifflauscher: fit the central 720px square at the same scale as the stills.
+   Outstretched arms may clip at the viewport edges, as requested. */
+#movie.padded-landscape { inset: auto; left: 50%; top: 50%; width: min(177.7778vh, 177.7778vw); height: min(100vh, 100vw); transform: translate(-50%, -50%); }
