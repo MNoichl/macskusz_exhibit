@@ -8,6 +8,8 @@
   const counter = document.getElementById('counter');
   const toggle = document.getElementById('toggle');
   const emptyState = document.getElementById('emptyState');
+  const playAnimation = document.getElementById('playAnimation') || Object.assign(document.createElement('button'), {id: 'playAnimation', className: 'play-animation', type: 'button', textContent: '▶ Play animation', hidden: true});
+  if (!playAnimation.isConnected) stage.appendChild(playAnimation);
   const stillOnlyMs = 50000;
   const imageHoldMs = 50000;
   const fadeMs = 1200;
@@ -36,6 +38,8 @@
     movie.classList.remove('visible');
     still.classList.remove('visible');
     info.hidden = true;
+    playAnimation.hidden = true;
+    playAnimation.onclick = null;
   }
   function preload(src) {
     if (!src) return Promise.resolve(false);
@@ -55,8 +59,12 @@
   }
   function playVideo(item, token) {
     if (token !== renderToken || !automatic) return;
+    movie.defaultMuted = Boolean(item.video_only || muted);
+    movie.muted = Boolean(item.video_only || muted);
+    movie.playsInline = true;
     movie.src = item.video;
-    movie.muted = item.video_only || muted;
+    // Keep the video visible before play(): some mobile browsers suspend hidden media.
+    if (item.video_only) movie.classList.add('visible');
     const fallback = () => {
       if (token !== renderToken || !automatic) return;
       movie.classList.remove('visible');
@@ -75,7 +83,23 @@
       if (token !== renderToken || !automatic) return;
       muted = true;
       movie.muted = true;
-      movie.play().then(reveal).catch(fallback);
+      movie.play().then(reveal).catch(error => {
+        if (token !== renderToken || !automatic) return;
+        if (error.name !== 'NotAllowedError') { fallback(); return; }
+        // A browser policy can require a real tap even for silent video.
+        timers.forEach(clearTimeout);
+        timers = [];
+        movie.classList.add('visible');
+        playAnimation.hidden = false;
+        playAnimation.onclick = () => {
+          movie.play().then(() => {
+            if (token !== renderToken) return;
+            playAnimation.hidden = true;
+            reveal();
+            later(finish, 120000, token);
+          }).catch(() => { /* Keep the explicit play action available. */ });
+        };
+      });
     });
     // A damaged or stalled video must not trap an unattended exhibit.
     later(finish, 120000, token);
