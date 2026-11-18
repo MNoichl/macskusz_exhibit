@@ -31,6 +31,7 @@
     movie.onerror = null;
     movie.pause();
     movie.removeAttribute('src');
+    movie.removeAttribute('poster');
     movie.load();
     movie.classList.remove('visible');
     still.classList.remove('visible');
@@ -55,10 +56,11 @@
   function playVideo(item, token) {
     if (token !== renderToken || !automatic) return;
     movie.src = item.video;
-    movie.muted = muted;
+    movie.muted = item.video_only || muted;
     const fallback = () => {
       if (token !== renderToken || !automatic) return;
       movie.classList.remove('visible');
+      still.hidden = false;
       still.classList.add('visible');
       later(finish, pauseAfterVideoMs, token);
     };
@@ -97,11 +99,16 @@
     } else {
       still.alt = item.title;
       still.src = item.image;
-      still.classList.add('visible');
+      if (item.video && item.video_only) {
+        still.hidden = true;
+        movie.poster = item.image;
+        if (automatic) playVideo(item, token);
+        else { movie.src = item.video; movie.load(); movie.classList.add('visible'); }
+      } else still.classList.add('visible');
       preload(items[(index + 1) % items.length]?.image);
       if (automatic) {
-        if (item.video) later(() => playVideo(item, token), imageHoldMs, token);
-        else later(finish, stillOnlyMs, token);
+        if (item.video && !item.video_only) later(() => playVideo(item, token), imageHoldMs, token);
+        else if (!item.video) later(finish, stillOnlyMs, token);
       }
     }
   }
@@ -111,8 +118,12 @@
     toggle.textContent = automatic ? 'Ⅱ' : '▶';
     toggle.setAttribute('aria-label', automatic ? 'Pause slideshow' : 'Play slideshow');
     toggle.setAttribute('aria-pressed', String(!automatic));
-    // Pause on the artwork, and restart its full viewing time on resume.
-    show(index);
+    // Freeze an immediate animation on its current frame when paused.
+    if (!automatic && items[index]?.video_only) {
+      timers.forEach(clearTimeout);
+      timers = [];
+      movie.pause();
+    } else show(index);
   }
   document.getElementById('previous').addEventListener('click', () => navigate(-1));
   document.getElementById('next').addEventListener('click', () => navigate(1));
