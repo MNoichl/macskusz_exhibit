@@ -111,6 +111,7 @@
     emptyState.hidden = true;
     index = (requested % items.length + items.length) % items.length;
     const item = items[index];
+    movie.classList.toggle('padded-landscape', item.video_framing === 'padded-landscape');
     still.hidden = movie.hidden = item.type === 'info';
     counter.textContent = `${index + 1} / ${items.length}`;
     stage.setAttribute('aria-label', `Slide ${index + 1} of ${items.length}: ${item.title}`);
