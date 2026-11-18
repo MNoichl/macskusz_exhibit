@@ -24,3 +24,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid #f4f1e8; outline-offs
 /* Rifflauscher: fit the central 720px square at the same scale as the stills.
    Outstretched arms may clip at the viewport edges, as requested. */
 #movie.padded-landscape { inset: auto; left: 50%; top: 50%; width: min(177.7778vh, 177.7778vw); height: min(100vh, 100vw); transform: translate(-50%, -50%); }
+
+/* Identical mirrored geometry, independent of platform arrow glyphs. */
+#previous, #next { appearance: none; -webkit-appearance: none; padding: 0; display: grid; place-items: center; flex: 0 0 44px; }
+.controls svg { display: block; width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
+#previous svg { transform: scaleX(-1); }
