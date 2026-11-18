@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Küszöbbiber",
+      "date": "November 18, 2026",
+      "image": "assets/macskusz_2026-11-18_2_5df07c548fe0.png",
+      "video": ""
+    },
+    {
       "title": "Saumquaker",
       "date": "November 17, 2026",
       "image": "assets/macskusz_2026-11-17_3_012d26e1d8ea.png",
@@ -41,12 +47,6 @@
       "title": "Stillwasser Hüter",
       "date": "November 11, 2026",
       "image": "assets/macskusz_2026-11-11_3_fbe5564aefb3.png",
-      "video": ""
-    },
-    {
-      "title": "Schwellenzirpe",
-      "date": "November 10, 2026",
-      "image": "assets/macskusz_2026-11-10_3_c2662046d8f9.png",
       "video": ""
     }
   ],
