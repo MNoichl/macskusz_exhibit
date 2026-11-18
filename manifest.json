@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Saumquaker",
+      "date": "November 17, 2026",
+      "image": "assets/macskusz_2026-11-17_3_012d26e1d8ea.png",
+      "video": ""
+    },
+    {
       "title": "Rifflauscher",
       "date": "November 16, 2026",
       "image": "assets/macskusz_2026-11-16_1_0a21ade2ff82.png",
@@ -41,12 +47,6 @@
       "title": "Schwellenzirpe",
       "date": "November 10, 2026",
       "image": "assets/macskusz_2026-11-10_3_c2662046d8f9.png",
-      "video": ""
-    },
-    {
-      "title": "Spiegeltrampel",
-      "date": "November 9, 2026",
-      "image": "assets/macskusz_2026-11-09_2_64a07ce6b2f9.png",
       "video": ""
     }
   ],
