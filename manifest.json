@@ -2,6 +2,12 @@
   "title": "1000 Names of Macskusz",
   "items": [
     {
+      "title": "Schilfriegel",
+      "date": "November 20, 2026",
+      "image": "assets/macskusz_2026-11-20_3_fa7a2ca66689.png",
+      "video": ""
+    },
+    {
       "title": "Tauversprecher",
       "date": "November 19, 2026",
       "image": "assets/macskusz_2026-11-19_3_80059e772e5a.png",
@@ -37,12 +43,6 @@
       "title": "Veilchenlaus",
       "date": "November 14, 2026",
       "image": "assets/macskusz_2026-11-14_1_ed1169baaf20.png",
-      "video": ""
-    },
-    {
-      "title": "Untergrund Unke",
-      "date": "November 13, 2026",
-      "image": "assets/macskusz_2026-11-13_2_e78cd1ac7b67.png",
       "video": ""
     },
     {
